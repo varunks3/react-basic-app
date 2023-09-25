@@ -55,5 +55,5 @@ jobs:
         with:
           app-name: 'react-linux'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3B3C638ABFB14E1C8AE46EBA7AC9E4D7 }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_LINUX }}
           package: ./build
